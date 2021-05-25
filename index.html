@@ -7,7 +7,53 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="page">
+        <div id="header">
+            <div class="cakeimg">
+                <img src="./assets/cake.png">
+                <label>CAKE WORLD</label>
+
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="priceboard">
+                <img src="./assets/list_template.png">
+                <h4>PRICES</h4>
+                <label>Chocolate ------ 300</label><br>
+                <label>Strawberry ----- 100</label><br>
+                <label>Butterscotch --- 200</label><br>
+                <label>Vanilla -------- 250</label><br>
+                <label>Redvelvet -----350</label><br>
+            </div>
+            <div class="cake">
+                <div class="taste" id="layer5"></div>
+                <div class="taste" id="layer4"></div>
+                <div class="taste" id="layer3"></div>
+                <div class="taste" id="layer2"></div>
+                <div class="taste" id="layer1"></div>
+                <img src="./assets/candle.png" id="candle">
+            </div>
+            <div id="billcalculate">
+                <img src="./assets/list_template.png" class="billboard">
+                <h4 class="tasteprice">BILL</h4>
+                <div class="bill" id="ChocolateBill"></div>
+                <div class="bill" id="StrawberryBill"></div>
+                <div class="bill" id="ButterscotchBill"></div>
+                <div class="bill" id="VanillaBill"></div>
+                <div class="bill" id="RedvelvetBill"></div>
+                <div class="bill" id="total"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="button" id="Chocolatekey" value="Chocolate" onclick="addChocolate()">
+            <input type="button" id="Strawberrykey" value="Strawberry" onclick="addStrawberry()">
+            <input type="button" id="Butterscotchkey" value="Butterscotch" onclick="addButterscotch()">
+            <input type="button" id="Vanillakey" value="Vanilla" onclick="addVanilla()">
+            <input type="button" id="Redvelvetkey" value="Redvelvet" onclick="addRedvelvet()">
+            <input type="button" id="buykey" value="Buy" onclick="buy()">
+        </div>
+    </div>   
 </body>
 <script src="/script.js"></script>
 </html>
